@@ -1,0 +1,32 @@
+.App{
+    margin: 100px;
+    padding: 50px;
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    color: white;
+}
+.App-header{
+    background-color: gray;
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
+}
+.day{
+    padding: 30px;
+    color: black;
+    font-size: 25px;
+    background-color:lightblue;
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.weather{
+    font-size: 40px;
+    text-align: center;
+}
+.btn{
+    background-color: black;
+    color: white;
+}
