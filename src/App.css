@@ -6,11 +6,16 @@
     width: 500px;
     color: white;
 }
-.App-header{
+.body{
     background-color: gray;
     border-radius: 20px;
     height: 400px;
     width: 400px;
+}
+.App-header{
+    border-radius: 20px;
+    /* height: 400px;
+    width: 400px; */
 }
 .day{
     padding: 30px;
@@ -23,10 +28,16 @@
 
 }
 .weather{
+    display: flex;
     font-size: 40px;
     text-align: center;
+    margin-top: 50px;
+    margin-left: 135px;
 }
-.btn{
+.button{
     background-color: black;
     color: white;
-}
+        border-radius: 15px;
+        margin-left: 160px;
+        margin-top: 50px;
+    }
