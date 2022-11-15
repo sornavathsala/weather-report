@@ -34,9 +34,7 @@ function App() {
      ? setFahrenheit(<p style={{color:"green"}}>{Math.round(weatherData.main.temp)}ºF  <BsSnow2/></p>)
      : setFahrenheit(<p style={{color:"red"}}>{Math.round(weatherData.main.temp)}ºF<BsFillSunFill/></p>));
   }
-  const color = () =>{
-
-  }
+  
 const noOfDay = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
 
 // day
