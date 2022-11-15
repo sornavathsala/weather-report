@@ -50,7 +50,7 @@ const noOfDay = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY
   ? (hour = 12)
   : ((hour > 12)
   ? (hour ="0" + hour - 12 ) && (period= "PM")
-  : (hour = ("0"+ hour))));
+  : (hour = (hour))));
 
 //min
   let mins = d.getMinutes();
